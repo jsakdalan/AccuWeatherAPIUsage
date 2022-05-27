@@ -1,3 +1,11 @@
+# NOTES:
+
+- There is a input field on the lower left of the page. You could input there you API key
+  ***My API key is the default value it may or may not be functional by the time you're testing (apikey might expire or exceeded number of request)
+
+- I used React.js for this project, bootstrap for some of the components, and mainly css for the design.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
