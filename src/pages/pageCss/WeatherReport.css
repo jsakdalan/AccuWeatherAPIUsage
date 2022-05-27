@@ -1,0 +1,225 @@
+.container{
+    text-align: center;
+    height: 100%;
+}
+
+.navContainer{
+    background-color: rgba(75, 27, 67, 0.1);
+    padding-bottom: 2%;
+}
+
+.heading{
+    margin: 0;
+    padding:10px;
+    color:#ffffff;
+}
+
+.labelCss{
+    color:#ffffff;
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 700;
+}
+
+.inputCss{
+    color:#17262A;
+    font-size: 14px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.submit{
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: 5px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(9, 10, 10);
+    border: 1px solid rgb(255, 255, 255);
+    line-height: 26px;
+    height: auto;
+}
+
+.submit:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.weatherContainer{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 10px #625e5e;
+    display:inline-block;
+    padding: 10px;
+    background-color: #FEFFFF;
+    width: 14%;
+    height: auto;
+    margin: 3% 1% 1% 1%;
+    transition: transform .2s;
+}
+
+.weatherContainer:hover{
+    transform: scale(1.1);
+    background-color: #eed8ff;
+    box-shadow: 5px 10px rgb(93, 78, 108);
+}
+
+.weatherContainerLight{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 10px #625e5e;
+    display:inline-block;
+    padding: 10px;
+    background-color: #FEFFFF;
+    width: 14%;
+    height: auto;
+    margin: 3% 1% 1% 1%;
+    transition: transform .2s;
+}
+
+.weatherContainerLight:hover{
+    transform: scale(1.1);
+    background-color: #feffc5;
+    box-shadow: 5px 10px rgb(135, 130, 0);
+}
+
+.weatherOuterContainer{
+    text-align: center;
+    margin: auto;
+    bottom: 0;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.weatherImage{
+    width: 100px;
+    height: auto;
+}
+
+.cardTitle{
+    margin: 15px;
+    height: 38px;
+    font-size: 18px;
+}
+
+.cardText{
+    margin-bottom:10px;
+    font-size: 16px;
+}
+
+.dayContainer{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top:3%;
+}
+
+.dayText{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    margin:5px 5px 5px 5px;
+}
+
+.nightText{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    margin:5px 5px 5px 5px;
+}
+
+.none{
+    display:none;
+}
+
+.headlineContainer{
+    display:block;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 10px #625e5e;
+    background-color: #FEFFFF;
+    width: 14%;
+}
+
+.dateCss{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #000000;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #000000;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
