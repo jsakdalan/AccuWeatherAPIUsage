@@ -4,7 +4,7 @@ import './pageCss/WeatherReport.css';
 
 export default function WeatherReport(){
 
-    const apikey = 'fLU2kkr9TkJAQ8ygBmwEORyfe38TrvdZ';
+    const apikey = 'SKm912HePHAQlZhM2w2hh3k60sl6ubp8';
 
     // GET CITY ID
     const [cityName, setCityName] = useState("Manila")
